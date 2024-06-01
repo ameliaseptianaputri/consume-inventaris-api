@@ -57,7 +57,7 @@ export default function LendingIndex() {
         <div className="items-center m-5 pb-10 pt-10">
           <div className="flex justify-between">
             <h5 className="mb-1 ml-5 text-3xl font-medium text-gray-900 dark:text-white">Lending</h5>
-            {authUser.role === 'admin' && (
+            {authUser.role === 'staff' && (
               <div className="flex justify-end">
                 <Link to={'create'} className="inline-flex items-center px-4 py-2 text-sm ml-3 font-medium text-center text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-orange-500 dark:bg-orange-500 dark:hover:bg-yellow-700 dark:focus:ring-green-800 mb-5 rounded-lg mr-2">
                   Create
